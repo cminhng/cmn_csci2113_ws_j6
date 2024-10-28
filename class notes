@@ -1,0 +1,14 @@
+Thread 1 (Main)
+  argss [...]
+  s [A100]
+  t [A200]
+
+Heap
+A100 [Mississippi]
+A200 [msg A100, tab \t]
+
+Thread 2
+  run
+  this [A200]
+
+multithreading - when those threads share memory = potential bad place. consider syncronized keyword
